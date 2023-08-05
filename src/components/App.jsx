@@ -25,7 +25,6 @@ export default function App() {
 
     return (
         <Wrapper>
-            <GlobalStyles />
             <Section title={'Please leave feedback'}>
                 <FeedbackOptions
                     options={Object.keys(state)}

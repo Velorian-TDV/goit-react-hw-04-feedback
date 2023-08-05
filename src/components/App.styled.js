@@ -1,24 +1,4 @@
-import { styled, createGlobalStyle } from 'styled-components';
-
-export const GlobalStyles = createGlobalStyle`
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body{
-        width: 100vw;
-        height: 100vh;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        background-color: rgb(224, 244, 244);
-    }
-`
+import { styled } from 'styled-components';
 
 export const Wrapper = styled.div`
 
